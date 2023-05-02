@@ -1,4 +1,3 @@
-
 create table ventas(id serial, product_name varchar, brand varchar, price int, quantity int, venta_total int);
 
 INSERT INTO ventas(product_name, brand, price, quantity, venta_total) VALUES('Bebida sabor Cola',	'Coca-Cola',	3,	3,	9);
@@ -26,12 +25,12 @@ create table ventas_cat(categoria varchar, monto int);
 
 insert into ventas_cat values('Literatura Clasica', 2500 );
 insert into ventas_cat values('Contemporanea', 32000 );
-insert into ventas values('Ciencia Ficcion', 28000 );
-insert into ventas values('Novela Romantica', 15700 );
+insert into ventas_cat values('Ciencia Ficcion', 28000 );
+insert into ventas_cat values('Novela Romantica', 15700 );
 insert into ventas_cat values('Terror', 12500 );
-insert into ventas values('Contemporanea', 18000 );
+insert into ventas_cat values('Contemporanea', 18000 );
 insert into ventas_cat values('Literatura Clasica', 25300 );
-insert into ventas values('Ciencia Ficcion', 12580 );
+insert into ventas_cat values('Ciencia Ficcion', 12580 );
 insert into ventas_cat values('Novela Romantica', 26000 );
-insert into ventas values('Terror', 29000 );
+insert into ventas_cat values('Terror', 29000 );
 insert into ventas_cat values('Literatura Clasica', 18000 );
